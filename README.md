@@ -25,11 +25,29 @@ The Blood Donation Website is a full-stack web application designed to connect b
 - **Frontend**: HTML, CSS, PHP
 - **Backend**: PHP
 - **Database**: MySQL
+- **Local Server**: XAMPP
 - **Version Control**: Git & GitHub
 
 ---
 
-## Installation / How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Nahida-shaik/Blood-Donation-website.git
+## Installation / How to Run Locally (Using XAMPP)
+1. **Install XAMPP** if you haven’t already: [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)  
+2. Copy the project folder (`lifedrop`) into the `htdocs` directory of XAMPP.  
+3. Start **Apache** and **MySQL** from the XAMPP Control Panel.  
+4. Open **phpMyAdmin** in your browser: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)  
+5. Create a new database (e.g., `blood_donation`) and import `rokto_db.sql` from your project.  
+6. Open `db-connect.php` in your project and update the database credentials if needed.  
+7. Open your browser and go to:  
+
+8. The website should now run locally, fully functional.  
+
+---
+
+## Contribution
+Feel free to fork this repository, make improvements, and submit a pull request.  
+
+---
+
+## Author
+**Nahida Shaik**  
+Email: nahidashaik11@gmail.com
